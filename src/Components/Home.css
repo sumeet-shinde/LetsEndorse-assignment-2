@@ -1,0 +1,53 @@
+.MainContainer{
+  width: 100%;
+  display: flex;
+}
+.LeftDiv{
+  font-size: 17px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.LeftDiv>div{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2% 0%;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.LeftDiv>div>div:nth-child(1){
+  width: 60%;
+  text-align: left;
+}
+
+.LeftDiv>div>div:nth-child(2){
+  width: 40%;
+  text-align: left;
+}
+
+.LeftDiv select{
+  width: 85%;
+  font-size: 17px;
+  padding: 2%;
+}
+
+.LeftDiv input{
+  padding: 2%;
+  font-size: 18px;
+}
+
+.RightDiv{
+  font-size: 17px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.RightDiv>div{
+  width: 90%;
+  text-align: left;
+  margin: auto;
+  border-bottom: 2px solid black;
+}
